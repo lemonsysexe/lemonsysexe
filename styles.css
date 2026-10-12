@@ -1,0 +1,183 @@
+body {
+  font-family: "Geist Pixel", sans-serif;
+}
+
+/* all this below is from w3schools so yeah*/
+.sidebar {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #303030;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar p {
+  padding: 6px 8px 6px 12px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffff00;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #949402;
+  transition: 0.2s;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar p {font-size: 14px;}
+}
+
+/* this below is no longer from w3schools */
+
+.tags{ /* styles to follow for items inside of the tags class */
+    color:white;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    border-color: #ffff00;
+    border-style:solid;
+    padding:10px;
+    width: 300px;
+    margin-left: 15px;
+    list-style: none;
+    padding-left: 10px;
+}
+
+ul li { /* no text decoration. bad. */
+    text-decoration: none;
+}
+
+button{ /* generic button style */
+    border-radius: 5px;
+    font-family: "Geist Pixel", sans-serif;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* button styles + hovers */
+button[id="lemon"] {
+    background-color: #ffff00;
+    color: #303030;
+}
+
+button[id="lemon"]:hover {
+    background-color: #838300;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+button[id="lime"] {
+    background-color: #00ff00;
+    color: #303030;
+}
+
+button[id="lime"]:hover {
+    background-color: #007700;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+button[id="stardust"] {
+    background-color: #000000;
+    color: #00ffff;
+}
+
+button[id="stardust"]:hover {
+    background-color: #00ffff;
+    color: #000000;
+    transition: 0.2s;
+}
+
+button[id="neroli"] {
+    background-color: #ceeaf4;
+    color: #ff5f00;
+}
+
+button[id="neroli"]:hover {
+    background-color: #ff5f00;
+    color: #ceeaf4;
+    transition: 0.2s;
+}
+
+button[id="flora"] {
+    background-color: #777578;
+    color: #ffffff;
+}
+
+button[id="flora"]:hover {
+    background-color: #ffffff;
+    color: #777578;
+    transition: 0.2s;
+}
+
+button[id="nexity"] {
+    background-color: #171717;
+    color: #ff0000;
+}
+
+button[id="nexity"]:hover {
+    background-color: #ff0000;
+    color: #171717;
+    transition: 0.2s;
+}
+
+button[id="lovedeath"] {
+    background-color: #f571f5;
+    color: #863ba8;
+}
+
+button[id="lovedeath"]:hover {
+    background-color: #863ba8;
+    color: #f571f5;
+    transition: 0.2s;
+}
+
+button[id="noncanon"] {
+    background-color: #0011ff;
+    color: #ffffff;
+}
+
+button[id="noncanon"]:hover {
+    background-color: #ffffff;
+    color: #0011ff;
+    transition: 0.2s;
+}
+
+button[id="ooc"] {
+    background-color: #10676d;
+    color: #ffffff;
+}
+
+button[id="ooc"]:hover {
+    background-color: #ffffff;
+    color: #10676d;
+    transition: 0.2s;
+}
+
+button[id="creator"] {
+    background-color: #00572b;
+    color: #ffffff;
+}
+
+button[id="creator"]:hover {
+    background-color: #ffffff;
+    color: #00572b;
+    transition: 0.2s;
+}
